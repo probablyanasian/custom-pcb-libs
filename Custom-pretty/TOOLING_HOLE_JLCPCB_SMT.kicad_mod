@@ -1,0 +1,10 @@
+(module TOOLING_HOLE_JLCPCB_SMT (layer F.Cu) (tedit 5EB01973)
+  (fp_text reference H (at 0 -1.905) (layer F.SilkS) hide
+    (effects (font (size 1.143 1.143) (thickness 0.152)) (justify left))
+  )
+  (fp_text value "Tooling Hole" (at 0 -3.81) (layer F.Fab) hide
+    (effects (font (size 1.143 1.143) (thickness 0.152)) (justify left))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.148) (solder_paste_margin 0.148))
+)
